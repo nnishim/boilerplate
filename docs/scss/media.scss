@@ -1,0 +1,79 @@
+@media screen and (min-width: 480px){
+	.slider{
+		&__buttons{
+			flex-direction: row;
+			align-items: center;
+		}
+		&__btn{
+			margin: 0 1.875rem 0 0;
+		}
+		&__btn:last-child{
+			margin: 0;
+		}
+	}
+	.expedita{
+		&__content{
+			text-align: center;
+		}
+		&__title{
+			width: unset;
+		}
+	}
+}
+
+@media screen and (min-width: 768px){
+	.header{
+		background: url(../img/phone.jpg) center center / cover;
+	}
+	.banner{
+		background: url(../img/bg_big_oval.png) center center / cover;
+	}
+	.banner__bg--none{
+		background: unset;
+	}
+}
+
+@media screen and (min-width: 992px){
+	.hamburger{
+		display: none;
+	}
+	.navbar{
+		background: #fff;
+	}
+	.logo, .search__btn{
+		color: #333;
+	}
+	.nav{
+		position: static;
+		transform: unset;
+		flex-direction: row;
+		background: unset;
+		&__link{
+			color: #333;
+			margin: 0 1.875rem;
+		}
+	}
+	.slider{
+		padding-top: 10.625rem;
+	}
+	.banner{
+		&__content{
+			display: flex;
+			align-items: center;
+		}
+	}
+	.banner__info--margin{
+		margin-left: 5.375rem;
+	}
+	.expedita{
+		&__content{
+			text-align: unset;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		&__title{
+			margin: 0;	
+		}
+	}
+}
